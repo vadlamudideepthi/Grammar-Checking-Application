@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Checking Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+```
+<div class="container">
+
+    <h1>✍️ Grammar Checking Application</h1>
+
+    <p class="subtitle">
+        Enter your text and check for common grammar mistakes
+    </p>
+
+    <textarea id="textInput"
+        placeholder="Type or paste your text here..."></textarea>
+
+    <div class="buttons">
+        <button onclick="checkGrammar()">Check Grammar</button>
+        <button class="clear-btn" onclick="clearText()">Clear</button>
+    </div>
+
+    <div class="result">
+
+        <h2>📋 Grammar Result</h2>
+
+        <p id="resultText">
+            Your grammar results will appear here.
+        </p>
+
+    </div>
+
+    <div class="examples">
+
+        <h3>Try an Example</h3>
+
+        <button onclick="loadExample()">
+            Load Sample Text
+        </button>
+
+    </div>
+
+    <div class="info">
+
+        <h3>How It Works</h3>
+
+        <p>
+            This application checks common grammar mistakes such as
+            incorrect capitalization, repeated spaces, missing punctuation,
+            and frequently confused words.
+        </p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
